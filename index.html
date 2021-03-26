@@ -15,831 +15,106 @@
     <!--fontawesome.css-->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <!--fontawesome.css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <!--aos.css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!--google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+
 
 </head>
 
 <!--====================================================-->
 
-<body
-    style="font-family: 'Shippori Mincho B1', serif;background-image: linear-gradient(to top, #b1c1e5, #96b0e1, #78a0dd, #5391d8, #0882d4);">
-
-    <header>
-        <nav>
+<body style="font-family: 'Kiwi Maru', serif;">
+    <header
+        style="background: url(assets/img/gray-desk-with-laptop-notepad-with-blank-sheet-pot-flower-stylus-tablet-retouching_155003-2431.jpg) no-repeat;background-size: cover;">
+        <div class="logo">
+            <a href="">
+                <img src="assets/img/logo-1.png" alt="">
+            </a>
+            <a href="" class="log_in">Log In</a>
+        </div>
+        <div class="header-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="logo">
-                            <a href="">LOGO</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <form>
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        </form>
-                    </div>
-                    <div class="col-lg-4">
-                        <ul class="activity">
-                            <li type="button">Log In</li>
-                            <li type="button">Sign In</li>
-                            <li type="button">Apply Now</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section id="invite">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-10">
-                            <div class="invite_content">
-                                <p>Be Connected:</p>
-                                <ul class="nav " id="myTab" role="tablist">
-                                    <li>
-                                        <a class="active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                            aria-controls="home" aria-selected="true">Professional</a>
-                                    </li>
-                                    <li>
-                                        <a id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                            aria-controls="profile" aria-selected="false">Suggested</a>
-                                    </li>
-                                    <li>
-                                        <a id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                            aria-controls="contact" aria-selected="false">Friend</a>
-                                    </li>
-                                    <li>
-                                        <a id="contact-tab" data-toggle="tab" href="#others" role="tab"
-                                            aria-controls="contact" aria-selected="false">Others</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
-                                        <div class="people">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">
-                                        <div class="people">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">
-                                        <div class="people">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12">
-                                                    <div class="single-people">
-                                                        <div class="row">
-                                                            <div class="col-lg-2">
-                                                                <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                    alt="" class="img-fluid">
-                                                            </div>
-                                                            <div class="col-lg-7">
-                                                                <div class="people_detail">
-                                                                    <p>Alex Dom</p>
-                                                                    <hr>
-                                                                </div>
-                                                                <ul class="interact">
-                                                                    <li> <a href="">View Profile</a> </li>
-                                                                    <li><a href="">Contact</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <ul class="interact_icon">
-                                                                    <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                    </li>
-                                                                    <li><a href=""><i
-                                                                                class="fas fa-arrow-right"></i></a></li>
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="others" role="tabpanel"
-                                    aria-labelledby="contact-tab">
-                                    <div class="people">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="single-people">
-                                                    <div class="row">
-                                                        <div class="col-lg-2">
-                                                            <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="col-lg-7">
-                                                            <div class="people_detail">
-                                                                <p>Alex Dom</p>
-                                                                <hr>
-                                                            </div>
-                                                            <ul class="interact">
-                                                                <li> <a href="">View Profile</a> </li>
-                                                                <li><a href="">Contact</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <ul class="interact_icon">
-                                                                <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i
-                                                                            class="fas fa-arrow-right"></i></a></li>
-
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="single-people">
-                                                    <div class="row">
-                                                        <div class="col-lg-2">
-                                                            <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="col-lg-7">
-                                                            <div class="people_detail">
-                                                                <p>Alex Dom</p>
-                                                                <hr>
-                                                            </div>
-                                                            <ul class="interact">
-                                                                <li> <a href="">View Profile</a> </li>
-                                                                <li><a href="">Contact</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <ul class="interact_icon">
-                                                                <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i
-                                                                            class="fas fa-arrow-right"></i></a></li>
-
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="single-people">
-                                                    <div class="row">
-                                                        <div class="col-lg-2">
-                                                            <img src="assets/invite/pexels-elle-hughes-1680172.jpg"
-                                                                alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="col-lg-7">
-                                                            <div class="people_detail">
-                                                                <p>Alex Dom</p>
-                                                                <hr>
-                                                            </div>
-                                                            <ul class="interact">
-                                                                <li> <a href="">View Profile</a> </li>
-                                                                <li><a href="">Contact</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <ul class="interact_icon">
-                                                                <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i
-                                                                            class="fas fa-arrow-right"></i></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="single-people">
-                                                    <div class="row">
-                                                        <div class="col-lg-2">
-                                                            <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg"
-                                                                alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="col-lg-7">
-                                                            <div class="people_detail">
-                                                                <p>Alex Dom</p>
-                                                                <hr>
-                                                            </div>
-                                                            <ul class="interact">
-                                                                <li> <a href="">View Profile</a> </li>
-                                                                <li><a href="">Contact</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <ul class="interact_icon">
-                                                                <li><a href=""><i class="fas fa-arrow-left"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i class="fas fa-arrow-up"></i></a>
-                                                                </li>
-                                                                <li><a href=""><i
-                                                                            class="fas fa-arrow-right"></i></a></li>
-
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="active-people">
-                                <p> Your Friend:</p>
-                            </div>
-                            <div class="your-friend  text-center">
-                                <div class="friend">
-                                    <a href="">
-                                        <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-                                    <div class="active_people">
-                                        <i class="fas fa-circle"></i>
-                                    </div>
-                                </div>
-                                <div class="friend">
-                                    <a href=""> <img src="assets/invite/pexels-elle-hughes-1680172.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-                                    <div class="active_people">
-                                        <i class="fas fa-circle"></i>
-                                    </div>
-                                </div>
-                                <div class="friend">
-                                    <a href="">
-                                        <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-
-                                </div>
-                                <div class="friend">
-                                    <a href=""> <img src="assets/invite/pexels-elle-hughes-1680172.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-
-                                    <div class="active_people">
-                                        <i class="fas fa-circle"></i>
-                                    </div>
-                                </div>
-                                <div class="friend">
-                                    <a href=""> <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="friend">
-                                    <a href=""> <img src="assets/invite/pexels-elle-hughes-1680172.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-
-                                    <div class="active_people">
-                                        <i class="fas fa-circle"></i>
-                                    </div>
-                                </div>
-                                <div class="friend">
-                                    <a href=""> <img src="assets/invite/pexels-kevin-bidwell-3863793.jpg" alt=""
-                                            class="img-fluid">
-                                        <div class="chat">
-                                            <p>Chat</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="col-lg-12 col-12">
+                        <div class="profile text-center">
+                            <a href="">
+                                <img src="assets/img/man.jpg" alt="">
+                            </a>
+                            <h4>Anik Kumar Bosu</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section id="participation">
+    <section id="media">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="title">
-                        <p>Our Program:</p>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Web development</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Graphic Design</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>SEO</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Makerting</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Instagram Design</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Ethical Hacking</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course_body">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="course">
-                                    <p>Lead generation</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <button class="part">
-                                    Participate
-                                </button>
-                            </div>
-                            <div class="col-lg-2">
-                                <div class="member">
-                                    <p>participants:20</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="media_list text-center">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h3 class="text-center">Contact</h3>
             <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="webminar">
-                        <a href="">
-                            <p>Or click to paritcipate in exclusive webminar</p>
-                        </a>
+                <div class="col-lg-8 offset-lg-2">
+                    <form action="" class="text-center">
+                        <label for="">First Name:</label>
+                        <input type="text"> <br>
+                        <label for="">Last Name:</label>
+                        <input type="text"> <br>
+                        <label for="">Email Add:</label>
+                        <input type="email"> <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gellary">
+        <div class="container">
+            <h3 class="text-center">Gellary</h3>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/romantic-valentines-day-card.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/pattern-palette-variation-selecting-cards-sampler_1423-137.jpg"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/blank-square-wedding-card-purple-flowers-green-leaves-white-backdrop_23-2148187475.jpg"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/romantic-valentines-day-card.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/pattern-palette-variation-selecting-cards-sampler_1423-137.jpg"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/gellary/blank-square-wedding-card-purple-flowers-green-leaves-white-backdrop_23-2148187475.jpg"
+                                alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -849,12 +124,21 @@
 
     <!--js plugins-->
     <!--jquery.min.js-->
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <!--bootstrap.min.js-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--jquery.counterup.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+        integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
+        crossorigin="anonymous"></script>
+    <!--waypoints.min.js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <script src="assets/js/style.js"></script>
 
 

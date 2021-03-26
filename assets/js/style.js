@@ -7,7 +7,19 @@ $(window).on("scroll", function () {
         $("nav").removeClass("fixed-top");
     }
 });
- 
- 
- 
+$('body').scrollspy({ target: ".navbar", offset: 50 });
+$('.carousel').carousel({
+    interval: 3000
+});
+AOS.init();
+//counter
+$('.count').counterUp({
+    delay: 10,
+    time: 1500
+});
+$('.bxslider').bxSlider({
+    controls: false,
+    auto: true,
+
+});
  
